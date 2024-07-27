@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="practice.css">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      input {
+        margin-left: 390px;
+        width: 500px;
+        padding: 10px 13px;
+        border-radius: 250px;
+        border: none;
+        box-shadow: 0px 0px 10px rgb(174, 173, 173);
+  
+      }
+      input:focus {
+        outline: none;
+      }
+      p {
+        margin-left: 570px;
+        margin-top: 100px;
+      }
+      p, span {
+        font-weight: bold;
+        font-size: 40px;
+      }
+      .g {
+        color: blue;
+      }
+      .o {
+        color: red;
+      }
+      .o2 {
+        color: yellow;
+      }
+      .g2 {
+        color: blue;
+      }
+      .l {
+        color: green;
+      }
+      .e {
+        color: red;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <p class="google-logo"><span class="g">H</span><span class="o">o</span><span class="o2">o</span><span class="g2">g</span><span class="l">l</span><span class="e">e</span></p>
+    <input type="text" placeholder="Search Hoogle or type URL">
+  </body>
+</html>
