@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="practice.css">
+        <title>Rothko</title>
+        <style>
+          body {
+              display: flex;
+              justify-content: center;
+          }
+          
+          .outer {
+              font-family: Arial, Helvetica, sans-serif;
+              width: 260px;
+              height: 300px;
+              filter: blur(1px);
+              background-color: rgb(88, 8, 8);
+              position: relative;
+              border-radius: 3px;
+          }
+          
+          .top {
+              position: absolute;
+              top: 15px;
+              left: 20px;
+              right: 20px;
+              height: 70px;
+              background-color: rgb(245, 180, 95);
+              filter: blur(1px);
+              border-radius: 5px;
+              rotate: -1deg;
+          }
+          
+          .middle {
+              position: absolute;
+              height: 90px;
+              left: 5px;
+              right: 5px;
+              top: 95px;
+              background-color: rgb(156, 6, 6);
+              filter: blur(1px);
+              border-radius: 5px;
+          }
+          
+          .bottom {
+              position: absolute;
+              bottom: 15px;
+              left: 15px;
+              right: 15px;
+              height: 85px;
+              background-color: rgb(197, 5, 5);
+              filter: blur(1px);
+              border-radius: 10px;
+              rotate: 1deg;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="top"></div>
+            <div class="middle"></div>
+            <div class="bottom"></div> 
+        </div>
+    </body>
+</html>
